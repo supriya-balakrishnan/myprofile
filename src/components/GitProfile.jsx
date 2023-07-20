@@ -214,7 +214,7 @@ const GitProfile = ({ config }) => {
                         <ul className="list-inside ...">
                           <li>
                             1.Creating user-friendly web Application by using
-                            markup languages, such as HTML,CSS.Javascript and
+                            markup languages, such as HTML,CSS,Javascript and
                             React
                           </li>
                           <li>
