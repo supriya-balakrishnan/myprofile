@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'SupriyaMadhan', // Your GitHub org/user name. (Required)
+    username: 'supriya-balakrishnan', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -19,8 +19,8 @@ const config = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
-    phone: '+1 8056010961 ',
+    website: 'https://supriya-balakrishnan.github.io',
+    phone: '+91-437-559-1033 ',
     email: 'code2priya@gmail.com',
   },
   resume: {
