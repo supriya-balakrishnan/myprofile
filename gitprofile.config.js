@@ -30,7 +30,7 @@ const config = {
   skills: ['JavaScript', 'React.js', 'HTML5', 'CSS3', 'Git', 'Typescript'],
   experiences: [
     {
-      company: 'Botcode Web Integration solutions private ltd',
+      company: 'Botcode Web Integration Solutions Private Ltd',
       position: 'HR Executive',
       from: 'March 2013',
       to: 'March 2014',
