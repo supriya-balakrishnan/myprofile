@@ -13,7 +13,7 @@ const config = {
   social: {
     linkedin: 'supriya-balakrishnan',
     instagram: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: 'https://www.youtube.com/@MommysHut', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
     stackoverflow: '', // example: '1/jeff-atwood'
