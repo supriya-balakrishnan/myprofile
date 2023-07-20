@@ -20,7 +20,7 @@ const config = {
     skype: '',
     telegram: '',
     website: 'https://supriya-balakrishnan.github.io',
-    phone: '+1-437-559-1033 ',
+    phone: '',
     email: 'code2priya@gmail.com',
   },
   resume: {
