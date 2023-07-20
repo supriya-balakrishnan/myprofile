@@ -90,7 +90,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -150,7 +150,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `We become what we think about. `,
+  footer: `We become what we think about.`,
 };
 
 export default config;
