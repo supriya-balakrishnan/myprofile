@@ -1,5 +1,5 @@
 {
-  "name": "@supriya/profile",
+  "name": "supriya-balakrishnan.github.io",
   "description": "My portfolio",
   "version": "2.6.0",
   "license": "MIT",
@@ -38,7 +38,7 @@
     "prettier": "prettier --check \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
     "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -b main -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
