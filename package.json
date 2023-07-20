@@ -1,9 +1,10 @@
 {
-  "name": "@arifszn/gitprofile",
-  "description": "Create an automatic portfolio based on GitHub profile",
+  "name": "@supriya/profile",
+  "description": "My portfolio",
   "version": "2.6.0",
   "license": "MIT",
-  "author": "arifszn",
+  "author": "Supriya",
+  "homepage": "http://supriya.github.io",
   "repository": {
     "type": "git",
     "url": "https://github.com/arifszn/gitprofile.git"
@@ -35,7 +36,9 @@
     "lint": "eslint --ext .js,.jsx .",
     "lint:fix": "eslint --ext .js,.jsx --fix .",
     "prettier": "prettier --check \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
-    "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\""
+    "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -52,6 +55,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.12",
     "prettier": "^2.6.0",
     "prop-types": "^15.8.1",

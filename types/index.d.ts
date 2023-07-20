@@ -1,6 +1,6 @@
 // Type definitions for GitProfile
 // Project https://github.com/arifszn/gitprofile
-// Author: Ariful Alam <arifulalamszn@gmail.com>
+// Author: Supriya Balakrishnan <code2priya@gmail.com>
 
 import { Component } from 'react';
 

@@ -10,7 +10,7 @@ import Experience from './experience';
 import Certification from './certification';
 import Education from './education';
 import Project from './project';
-import Blog from './blog';
+//import Blog from './blog';
 import Footer from './footer';
 import {
   genericError,
@@ -197,22 +197,53 @@ const GitProfile = ({ config }) => {
                   </div>
                   <div className="lg:col-span-2 col-span-1">
                     <div className="grid grid-cols-1 gap-6">
+                      <div className="box">
+                        <h1>SUMMARY</h1>
+                        <br></br>
+                        <p>
+                          Enthusiastic Front end Web Developer with a passion
+                          for web application development and success in
+                          managing development projects.Skilled in
+                          projects.Skilled in conceptualizing,
+                          designing,development, and deploying containing
+                          containing logical solutions to business problems.
+                        </p>
+                        <br></br>
+                      </div>
                       <Project
                         repo={repo}
                         loading={loading}
                         github={sanitizedConfig.github}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
+                      <div className="box2">
+                        <h1>EXPERTISE:</h1>
+                        <br></br>
+                        <p>
+                          Employed HTML, CSS and JavaScript while leveraging
+                          React and ensured a user-friendly experience.
+                          <br></br>
+                          Knowlegde in GitHub project Collaboration and
+                          developing web application. Good Knowlegde in GitHub
+                          <br></br>
+                          Good Knowlegde in GitHub project Collaboration and
+                          developing web application.
+                          <br></br>
+                          Good Knowlegde in GitHub developing web application.
+                          <br></br>
+                        </p>
+                      </div>
                       <ExternalProject
                         loading={loading}
                         externalProjects={sanitizedConfig.externalProjects}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
-                      <Blog
+                      {/*<Blog
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                         blog={sanitizedConfig.blog}
                       />
+                      */}
                     </div>
                   </div>
                 </div>

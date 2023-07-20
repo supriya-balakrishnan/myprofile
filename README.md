@@ -586,7 +586,7 @@ Your public repo from GitHub will be displayed in the `Github Projects` section 
 // gitprofile.config.js
 const config = {
   // ...
-  github: {
+ /* github: {
     username: 'arifszn',
     sortBy: 'stars',
     limit: 8,
@@ -604,7 +604,7 @@ In this section you can showcase your external/personal projects.
 
 ```js
 // gitprofile.config.js
-const config = {
+/*const config = {
   // ...
   externalProjects: [
     {
@@ -623,7 +623,7 @@ If you have [medium](https://medium.com) or [dev](https://dev.to) account, you c
 
 ```js
 // gitprofile.config.js
-const config = {
+/*const config = {
   // ...
   blog: {
     source: 'dev',

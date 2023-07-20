@@ -82,6 +82,26 @@ svg {
   }
 }
 
+.box{
+  opacity: 90;
+  width: auto;
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 20px;
+  height:160px;
+}
+.box2{
+  opacity: 90;
+  width: auto;
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 20px;
+  height:260px;
+}
+
+
+
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
