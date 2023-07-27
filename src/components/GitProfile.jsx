@@ -211,17 +211,17 @@ const GitProfile = ({ config }) => {
                       <div className="box-border h-auto w-auto p-1 border-2 opacity-70  m4 ">
                         <h1>EXPERTISE:</h1>
                         <br></br>
-                        <ul className="list-inside ...">
+                        <ul className="list-style-type:circle;">
                           <li>
-                            1.Creating user-friendly web Application by using
+                            Creating user-friendly web Application by using
                             markup languages, such as HTML,CSS,Javascript and
-                            React
+                            React.
                           </li>
                           <li>
-                            2.Good Understanding of layout aesthetics and
-                            programming
+                            Good Understanding of layout aesthetics and
+                            programming.
                           </li>
-                          <li>3.Familiarity with GitHub and StoryBook </li>
+                          <li>Familiarity with GitHub and StoryBook. </li>
                         </ul>
                         <br></br>
                       </div>
