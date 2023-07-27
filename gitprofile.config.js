@@ -63,14 +63,16 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project 1',
-      description: '"Yet To Develop"',
-      imageUrl: 'once done will upload url',
-      link: '',
+      title: 'Project 1:',
+      description:
+        'Created Portfolio Using HTML5,tailwind CSS, used React as Front End library',
+      imageUrl:
+        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fjoinhandshake.com%2Fblog%2Fstudents%2Ftag%2Fresume-samples%2F&psig=AOvVaw2Bmm_Jb2vmPVZD0fu_H6kc&ust=1690571233321000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCzreTKr4ADFQAAAAAdAAAAABAE',
+      link: 'https://supriya-balakrishnan.github.io',
     },
     {
-      title: '',
-      description: '',
+      title: 'Project 2',
+      description: 'yet to develop',
       imageUrl: '',
       link: '',
     },
