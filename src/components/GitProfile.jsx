@@ -26,6 +26,7 @@ import PropTypes from 'prop-types';
 import '../assets/index.css';
 import { formatDistance } from 'date-fns';
 import ExternalProject from './external-project';
+import Expertise from './expertise';
 
 const bgColor = 'bg-base-300';
 
@@ -208,23 +209,8 @@ const GitProfile = ({ config }) => {
                         externalProjects={sanitizedConfig.externalProjects}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
-                      <div className="box-border h-auto w-auto p-1 border-2 opacity-70  m4 ">
-                        <h1>EXPERTISE:</h1>
-                        <br></br>
-                        <ul className="list-style-type:circle;">
-                          <li>
-                            Creating user-friendly web Application by using
-                            markup languages, such as HTML,CSS,Javascript and
-                            React.
-                          </li>
-                          <li>
-                            Good Understanding of layout aesthetics and
-                            programming.
-                          </li>
-                          <li>Familiarity with GitHub and StoryBook. </li>
-                        </ul>
-                        <br></br>
-                      </div>
+                      <Expertise />
+
                       {/*<Blog
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
